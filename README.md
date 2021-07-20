@@ -12,6 +12,7 @@ In my case, the driver comes with kernel>=5.4, which means you can use your 4G d
 3. Test with ```sudo ~/files/quectel-CM/quectel-CM -s [YOUR APN]```
 
 # Services
+0. change home path and user in ```qmi_reconnect.service```
 1. Exec ```sudo bash install_service.sh```
 2. After that check with ```sudo systemctl status qmi_reconnect.service```
 

@@ -4,11 +4,11 @@ After=network.target
 
 [Service]
 ExecStart=/bin/sh /usr/src/qmi_reconnect.sh
-WorkingDirectory=/home/pi/files/quectel-CM/
+WorkingDirectory=/root/files/quectel-CM/
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
-User=pi
+User=root
 
 [Install]
 WantedBy=multi-user.target
