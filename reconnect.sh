@@ -2,7 +2,7 @@
 
 while true; do
 
-	ping -I wwan0 -c 1 8.8.8.8
+	ping -I wwan0 -c 1 223.5.5.5
 
 	if [ $? -eq 0 ]; then
 		echo "Connection up, reconnect not required..."
